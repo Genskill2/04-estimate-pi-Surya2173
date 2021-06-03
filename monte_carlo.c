@@ -51,8 +51,7 @@ for (int i=0;i<=n;i++)
 x=frandom();
 y=frandom();
 if(x*x+y*y<=1)
-in_circle+=1;
-//in_circle++ ;
+in_circle++ ;
 }
 pi=(float)(4*in_circle)/n;
 return pi;
